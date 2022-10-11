@@ -1,0 +1,7 @@
+package odevHafta3;
+
+public class CustomerManager {
+	public void Save() {
+		System.out.println("Müşteri kaydedildi");
+	}
+}

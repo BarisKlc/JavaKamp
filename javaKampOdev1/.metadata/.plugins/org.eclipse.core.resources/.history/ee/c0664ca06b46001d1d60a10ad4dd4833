@@ -1,0 +1,19 @@
+package odevHafta3;
+
+public class CustomerManager {
+	
+	private Customer _customer;
+	
+	public CustomerManager(Customer customer) {
+		_customer = customer;
+	}
+	
+	public void Save(Customer customer) {
+		System.out.println("Müşteri kaydedildi : ");
+	}
+
+	public void Delete(Customer customer) {
+		System.out.println("Müşteri silindi : ");
+	}
+	
+}

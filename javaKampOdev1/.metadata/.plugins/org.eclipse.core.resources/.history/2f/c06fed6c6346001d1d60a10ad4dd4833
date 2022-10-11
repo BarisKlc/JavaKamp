@@ -1,0 +1,14 @@
+package odevHafta3;
+
+public class Customer {
+	
+	public Customer() {
+		System.out.println("Müşteri nesnesi başlatıldı");
+	}
+	
+	public int Id;
+	public String FirstName;
+	public String LastName;
+	public String City;
+	
+}

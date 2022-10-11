@@ -1,0 +1,12 @@
+package odevHafta3;
+
+public class CreditManagerr {
+	
+	public void Calculate() {
+		System.out.println("Hesaplandı");
+	}
+	public void Save() {
+		System.out.println("Kredi verildi");
+	}
+	
+}

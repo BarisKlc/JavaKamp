@@ -1,0 +1,13 @@
+package polymorphismDemo;
+
+public class CustomerManager {
+	private BaseLogger baseLogger;
+	
+	public CustomerManager() {
+		
+	}
+	public void Add() {
+		System.out.println("Müşteri eklendi");
+		
+	}
+}

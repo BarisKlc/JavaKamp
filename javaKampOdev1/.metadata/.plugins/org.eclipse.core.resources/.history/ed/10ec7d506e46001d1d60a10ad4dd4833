@@ -1,0 +1,11 @@
+package odevHafta3;
+
+public class TeacherCreditManager implements BaseCreditManager, ICreditManager{
+
+	@Override
+	public void calculate() {
+		System.out.println("Öğretmen kredisi hesaplandı");
+		
+	}
+
+}

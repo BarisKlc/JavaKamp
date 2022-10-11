@@ -1,0 +1,39 @@
+package odevHafta3;
+
+public class CreditManager {
+
+	public static void main(String[] args) {
+		CreditManager creditManager = new CreditManager();
+		creditManager.Calculate();
+		creditManager.Save();
+		
+		Customer customer = new Customer();
+		customer.Id = 1;
+		customer.City = "Ankara";
+		
+		CustomerManager customerManager = new CustomerManager(customer);
+		customerManager.Save();
+		customerManager.Delete();
+		
+		Company company = new Company();
+		company.TaxNumber = "100000";
+		company.CompanyName = "Kodlama.io";
+		company.Id = 100;
+		
+		CustomerManager customerManager2 = new CustomerManager(new Person());
+		
+		Person person = new Person();
+		person.NationalIdentity = "123456";
+		person.FirstName = "Engin";
+		person.LastName = "Demiroğ";
+		
+	}
+	
+	public void Calculate() {
+		System.out.println("Hesaplandı");
+	}
+	public void Save() {
+		System.out.println("Kredi verildi");
+	}
+	
+}

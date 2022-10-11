@@ -1,0 +1,5 @@
+package interfaceDemo;
+//bizim çalışanımız
+public class Worker {
+
+}

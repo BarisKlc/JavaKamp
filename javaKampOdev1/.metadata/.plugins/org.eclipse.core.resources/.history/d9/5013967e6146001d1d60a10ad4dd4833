@@ -1,0 +1,11 @@
+package odevHafta3;
+
+public class Customer {
+	
+	public int Id;
+	public String FirstName;
+	public String LastName;
+	public String NationalIdentity;
+	public String City;
+	
+}

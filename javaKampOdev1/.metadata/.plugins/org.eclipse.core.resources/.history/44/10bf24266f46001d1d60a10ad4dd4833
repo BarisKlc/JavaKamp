@@ -1,0 +1,11 @@
+package odevHafta3;
+
+public class MilitaryCreditManager implements BaseCreditManager, ICreditManager{
+
+	@Override
+	public override void calculate() {
+		System.out.println("Asker kredisi hesaplandı");
+		
+	}
+
+}

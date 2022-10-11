@@ -1,0 +1,21 @@
+package odevHafta3;
+
+public class CustomerManager {
+	
+	CustomerManager customerManager = new CustomerManager(customer);
+	customerManager.Save();
+	customerManager.Delete();
+	
+	Company company = new Company();
+	company.TaxNumber = "100000";
+	company.CompanyName = "Kodlama.io";
+	company.Id = 100;
+	
+	CustomerManager customerManager2 = new CustomerManager(new Person());
+	
+	Person person = new Person();
+	person.NationalIdentity = "123456";
+	person.FirstName = "Engin";
+	person.LastName = "Demiroğ";
+	
+}

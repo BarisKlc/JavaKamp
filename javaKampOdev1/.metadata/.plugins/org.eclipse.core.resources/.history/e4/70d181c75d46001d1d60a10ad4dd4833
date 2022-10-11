@@ -1,0 +1,18 @@
+package odevHafta3;
+
+public class CreditManager {
+
+	public static void main(String[] args) {
+		CreditManager creditManager = new CreditManager();
+		creditManager.Calculate();
+
+	}
+	
+	public void Calculate() {
+		System.out.println("Hesaplandı");
+	}
+	public void Save() {
+		System.out.println("Kredi verildi");
+	}
+	
+}
